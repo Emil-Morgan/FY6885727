@@ -1,19 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<body>     <!-- Banner and Title -->
-    <div class="banner">
-        <img src="WebBanner2023.png" alt="Banner" width="1200" height="300">
-        <h1><b>ENG0018 Computer Laboratory 2024/25</b></h1>
-        <h2>Student URN: 6885727</h2>
-        <hr>
-        <h2 style="font-family:calibri;"><b>A scientific comparaison of cemented and cementless TKR.</b></h2>
-        <hr>
-    </div>
-</body>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A scientific comparaison of cemented and cementless TKR.</title>
+    <title>A Scientific Comparison of Cemented and Cementless TKR</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
         body {
@@ -56,13 +46,31 @@
         hr {
             margin: 10px 0;
         }
+        .illustration {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .word-count {
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
-   
+    <!-- Banner and Title -->
+    <div class="banner">
+        <img src="WebBanner2023.png" alt="Banner" width="1200" height="300">
+        <h1><b>ENG0018 Computer Laboratory 2024/25</b></h1>
+        <h2>Student URN: 6885727</h2>
+        <hr>
+        <h2 style="font-family:calibri;"><b>A Scientific Comparison of Cemented and Cementless TKR</b></h2>
+        <hr>
+    </div>
+
     <!-- Content Section -->
     <div class="content">
-        <h1>A scientific comparaison of cemented and cementless TKR.</h1>
+        <h1>A Scientific Comparison of Cemented and Cementless TKR</h1>
 
         <h2>Introduction</h2>
         <p>
@@ -142,6 +150,12 @@
             </tr>
         </table>
 
+        <h2>Illustration</h2>
+        <div class="illustration">
+            <img src="image.png" alt="Cemented vs Cementless TKR Illustration" width="600">
+            <p><i>Figure: A comparison of cemented and cementless fixation techniques in TKR.</i></p>
+        </div>
+
         <h2>Conclusion</h2>
         <p>
             The choice between cemented and cementless fixation for TKA depends on patient factors such as age, bone quality, activity level, and overall health, as well as the surgeon's skill. By tailoring the procedure to these factors, optimal long-term outcomes for mobility and joint health can be achieved.
@@ -155,9 +169,17 @@
                 </a>
             </li>
         </ul>
-    </div>
-</body>
-</html>
 
+        <div class="word-count" id="wordCount"></div>
+    </div>
+
+    <script>
+        // Word count functionality
+        document.addEventListener("DOMContentLoaded", () => {
+            const content = document.querySelector(".content").innerText;
+            const wordCount = content.split(/\s+/).filter(word => word.length > 0).length;
+            document.getElementById("wordCount").textContent = `Total Word Count: ${wordCount}`;
+        });
+    </script>
 </body>
 </html>
