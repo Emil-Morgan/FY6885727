@@ -46,6 +46,12 @@
         hr {
             margin: 10px 0;
         }
+        .word-count {
+            font-size: 0.8em;
+            color: #555;
+            text-align: right;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -62,10 +68,24 @@
     <!-- Content Section -->
     <div class="content">
         <h1>A Scientific Comparison of Cemented and Cementless TKR</h1>
+
         <h2>Introduction</h2>
-        <!-- Introduction content here -->
+        <p>Total knee arthroplasty (TKA), also known as total knee replacement surgery (TKR), is a surgical procedure performed to alleviate chronic knee pain and restore joint mobility in patients with severe arthritis, osteonecrosis, or other degenerative joint diseases...</p>
+        
+        <!-- Add other paragraphs here -->
+
         <h2>Main Body</h2>
-        <h3>Comparison Table</h3>
+        <p>During TKA, the metal parts of the prosthesis are fixed with two different methods:</p>
+        
+        <h3>Cementless Fixation</h3>
+        <p>Cementless fixation is done by press-fitting the metal parts that attach to the femur and tibia...</p>
+
+        <h3>Cemented Fixation</h3>
+        <p>The surgeon must drill a hole in the tibia slightly larger than the implant, to leave space...</p>
+
+        <h3>Conclusion</h3>
+
+        <h4>Comparison Table</h4>
         <table>
             <thead>
                 <tr>
@@ -117,10 +137,16 @@
                 </tr>
             </tbody>
         </table>
-        <!-- Remaining content -->
     </div>
-</body>
-</html>
 
+    <!-- Word Count -->
+    <div class="word-count" id="wordCount">Word Count: 0</div>
+
+    <script>
+        // Script to count words
+        const content = document.querySelector('.content').innerText;
+        const wordCount = content.split(/\s+/).filter(word => word.length > 0).length;
+        document.getElementById('wordCount').innerText = `Word Count: ${wordCount}`;
+    </script>
 </body>
 </html>
