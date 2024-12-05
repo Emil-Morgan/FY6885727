@@ -202,14 +202,14 @@ Cemented TKA: Ideal for older patients or those with poor bone quality, as it pr
         </p>
     </div>
 
-    <!-- Word Count -->
+   <!-- Word Count -->
     <div class="word-count" id="wordCount">Word Count: 0</div>
 
     <script>
         // Script to count words
         const content = document.querySelector('.content').innerText;
         const wordCount = content.split(/\s+/).filter(word => word.length > 0).length;
-        document.getElementById('wordCount').innerText = Word Count: ${wordCount};
+        document.getElementById('wordCount').innerText = `Word Count: ${wordCount}`;
     </script>
 </body>
 </html>
