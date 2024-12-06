@@ -68,87 +68,68 @@
     <!-- Content Section -->
     <div class="content">
         <h1>A Scientific Comparison of Cemented and Cementless TKR</h1>
-  <!-- Excluded Section -->
-    <div class="excluded" id="excludedSection">
-        <h1>Abstract</h1>
-        <p>Total knee arthroplasty (TKA), also known as total knee replacement (TKR), involves replacing the knee joint with an artificial implant. This procedure can use one of two methods: cementless fixation, which relies on porous implants that promote bone growth for long-term durability and simpler revision surgeries, 
-but requires greater surgical precision and a longer recovery period; or cemented fixation, which provides immediate stability, making it suitable for older patients or those with poor bone quality, though it may lead to complications such as cement wear and complex revision surgeries. 
-The choice between these methods depends primarily on the patient’s age, bone health, and activity level, with cementless fixation favored for younger, active individuals and cemented fixation for older, less active patients.</p>
-    </div>
 
-
+        <!-- Excluded Section for Word Count -->
+        <div class="excluded" id="excludedSection">
+            <h1>Abstract</h1>
+            <p>Total knee arthroplasty (TKA), also known as total knee replacement (TKR), involves replacing the knee joint with an artificial implant. This procedure can use one of two methods: cementless fixation, which relies on porous implants that promote bone growth for long-term durability and simpler revision surgeries, 
+                but requires greater surgical precision and a longer recovery period; or cemented fixation, which provides immediate stability, making it suitable for older patients or those with poor bone quality, though it may lead to complications such as cement wear and complex revision surgeries. 
+                The choice between these methods depends primarily on the patient’s age, bone health, and activity level, with cementless fixation favored for younger, active individuals and cemented fixation for older, less active patients.</p>
+        </div>
 
         <h2>Introduction</h2>
-        <p>
-            Total knee arthroplasty (TKA), also known as total knee replacement surgery (TKR), is a surgical procedure performed to alleviate chronic knee pain and restore joint mobility in patients with severe arthritis, osteonecrosis,
-            or other degenerative joint diseases. Surgery replacement will provide significant pain relief as well as return of mobility to the joint and prevent further damage and strain to spread to other joints such as the hips.
-        </p>
-        <p>
-            The TKA procedure consists of removing damaged cartilage and bone from the knee joint and replacing them with artificial components, usually made from metal alloys and durable plastics to simulate the functions of a healthy knee.
-            Although TKA can provide long-term relief, the artificial implants wear over time and need revision, especially in younger and more active patients, who may need revision surgery in the future.
-        </p>
-        <p>
-            TKA is still one of the most effective treatments for severe knee degeneration, by relieving symptoms and restoring function when conservative treatments have failed. Globally, TKA has become one of the most common orthopaedic procedures, with over 100,000 operations performed annually in the UK alone.
-            Cemented fixation is the predominant method, used in approximately 95% of primary TKR in the UK and 68% in Australia, where cementless fixation accounts for only 11% of cases. However, advances in implant design and manufacturing technology have renewed interest in cementless fixation. This method offers potential advantages,
-            such as shorter surgical times and the possibility of long-lasting biological fixation, making it a promising possibility for certain patient populations.
-        </p>
+        <p>Total knee arthroplasty (TKA), also known as total knee replacement surgery (TKR), is a surgical procedure performed to alleviate chronic knee pain and restore joint mobility in patients with severe arthritis, osteonecrosis, or other degenerative joint diseases. Surgery replacement will provide significant pain relief as well as return of mobility to the joint and prevent further damage and strain to spread to other joints such as the hips.</p>
+        <p>The TKA procedure consists of removing damaged cartilage and bone from the knee joint and replacing them with artificial components, usually made from metal alloys and durable plastics to simulate the functions of a healthy knee. Although TKA can provide long-term relief, the artificial implants wear over time and need revision, especially in younger and more active patients, who may need revision surgery in the future.</p>
+        <p>TKA is still one of the most effective treatments for severe knee degeneration, by relieving symptoms and restoring function when conservative treatments have failed. Globally, TKA has become one of the most common orthopaedic procedures, with over 100,000 operations performed annually in the UK alone. Cemented fixation is the predominant method, used in approximately 95% of primary TKR in the UK and 68% in Australia, where cementless fixation accounts for only 11% of cases. However, advances in implant design and manufacturing technology have renewed interest in cementless fixation. This method offers potential advantages, such as shorter surgical times and the possibility of long-lasting biological fixation, making it a promising possibility for certain patient populations.</p>
 
         <h2>Main Body</h2>
-        <p>
-            During TKA, the metal parts of the prosthesis are fixed with two different methods:
-        </p>
+        <p>During TKA, the metal parts of the prosthesis are fixed with two different methods:</p>
 
         <h3>Cementless Fixation</h3>
-<p>Cementless fixation is done by press fitting the metal parts that attach to the femur and tibia. The components are made specifically with a porous surface to allow the bone to grow and attach itself to the components, and the bones are shaped in way to ensure a tight fit around the implants.
-    However, bone cement is used to fix the patella in place because the cementless method has been shown to be ineffective for this purpose.
-</p>
-<ul>
-    <li><b>Advantages:</b> 
+        <p>Cementless fixation is done by press fitting the metal parts that attach to the femur and tibia. The components are made specifically with a porous surface to allow the bone to grow and attach itself to the components, and the bones are shaped in way to ensure a tight fit around the implants. However, bone cement is used to fix the patella in place because the cementless method has been shown to be ineffective for this purpose.</p>
         <ul>
-            <li>Avoids issues with cement, such as cracking and loosening, which can lead to osteolysis.</li>
-            <li>More suitable for younger, active patients with healthy bone stock, reducing the risk of implant loosening.</li>
-            <li>Shorter surgery times, as there is no need to wait for cement to set.</li>
-            <li>Simpler revisions, as bone around the implant remains intact and no cement removal is required.</li>
+            <li><b>Advantages:</b> 
+                <ul>
+                    <li>Avoids issues with cement, such as cracking and loosening, which can lead to osteolysis.</li>
+                    <li>More suitable for younger, active patients with healthy bone stock, reducing the risk of implant loosening.</li>
+                    <li>Shorter surgery times, as there is no need to wait for cement to set.</li>
+                    <li>Simpler revisions, as bone around the implant remains intact and no cement removal is required.</li>
+                </ul>
+            </li>
+            <li><b>Disadvantages:</b> 
+                <ul>
+                    <li>Implant stability takes longer due to reliance on bone growth, leading to potential discomfort and instability during recovery.</li>
+                    <li>Requires good bone health, typically found in younger patients.</li>
+                    <li>High surgical precision is required for proper implant placement; gaps between implant and bone can cause failure.</li>
+                    <li>Limited long-term data on outcomes, as this method is relatively new.</li>
+                    <li>Cementless implants tend to be more expensive due to specialized materials and designs.</li>
+                </ul>
+            </li>
         </ul>
-    </li>
-    <li><b>Disadvantages:</b> 
-        <ul>
-            <li>Implant stability takes longer due to reliance on bone growth, leading to potential discomfort and instability during recovery.</li>
-            <li>Requires good bone health, typically found in younger patients.</li>
-            <li>High surgical precision is required for proper implant placement; gaps between implant and bone can cause failure.</li>
-            <li>Limited long-term data on outcomes, as this method is relatively new.</li>
-            <li>Cementless implants tend to be more expensive due to specialized materials and designs.</li>
-        </ul>
-    </li>
-</ul>
 
-<h3>Cemented Fixation</h3>
-<p>
-   The surgeon must drill a hole in the tibia slightly larger than the implant, to leave space in between the implant and the bone to apply a product called bone cement, a mixture that is long lasting as well as fast hardening. 
-    The implants are different to the cementless one because there is no need for the porous surface, as the bone cement fixes the implant properly without it. And as mentioned above, the patella is fixed to the knee with bone cement in both cases.
-</p>
-<ul>
-    <li><b>Advantages:</b>
+        <h3>Cemented Fixation</h3>
+        <p>The surgeon must drill a hole in the tibia slightly larger than the implant, to leave space in between the implant and the bone to apply a product called bone cement, a mixture that is long lasting as well as fast hardening. The implants are different from the cementless one because there is no need for the porous surface, as the bone cement fixes the implant properly without it. And as mentioned above, the patella is fixed to the knee with bone cement in both cases.</p>
         <ul>
-            <li>Well-established with proven durability of 10–20 years without needing revision surgery.</li>
-            <li>Immediate implant stability results in faster recovery.</li>
-            <li>Cement often contains antibiotics, lowering infection risk.</li>
-            <li>Requires less manipulation during surgery, leading to less blood loss and better range of motion post-surgery.</li>
-            <li>Ideal for patients with poor bone quality, such as older adults, who have reduced capacity for bone growth at the implant interface.</li>
+            <li><b>Advantages:</b>
+                <ul>
+                    <li>Well-established with proven durability of 10–20 years without needing revision surgery.</li>
+                    <li>Immediate implant stability results in faster recovery.</li>
+                    <li>Cement often contains antibiotics, lowering infection risk.</li>
+                    <li>Requires less manipulation during surgery, leading to less blood loss and better range of motion post-surgery.</li>
+                    <li>Ideal for patients with poor bone quality, such as older adults, who have reduced capacity for bone growth at the implant interface.</li>
+                </ul>
+            </li>
+            <li><b>Disadvantages:</b>
+                <ul>
+                    <li>Cement can crack or flake, causing inflammation, osteolysis, and loosening of the prosthesis.</li>
+                    <li>Cement wear is faster in younger, more active patients, making it less suitable for them.</li>
+                    <li>The cement hardening process generates heat, which can damage surrounding bone tissue.</li>
+                    <li>Cement durability depends on the surgeon’s skill, and improper application can affect long-term outcomes.</li>
+                    <li>Revision surgeries are more complex, requiring cement removal and often a bone graft due to weakened bone stock.</li>
+                </ul>
+            </li>
         </ul>
-    </li>
-    <li><b>Disadvantages:</b>
-        <ul>
-            <li>Cement can crack or flake, causing inflammation, osteolysis, and loosening of the prosthesis.</li>
-            <li>Cement wear is faster in younger, more active patients, making it less suitable for them.</li>
-            <li>The cement hardening process generates heat, which can damage surrounding bone tissue.</li>
-            <li>Cement durability depends on the surgeon’s skill, and improper application can affect long-term outcomes.</li>
-            <li>Revision surgeries are more complex, requiring cement removal and often a bone graft due to weakened bone stock.</li>
-        </ul>
-    </li>
-</ul>
 
-        
         <h3>Comparison Table</h3>
         <table>
             <thead>
@@ -203,89 +184,32 @@ The choice between these methods depends primarily on the patient’s age, bone 
         </table>
 
         <h3>Conclusion</h3>
-        <p>
-            The main driver for selecting cement or cementless TKA procedure main differences is the age of the patient, which in turn is related to the patient’s overall health and bone quality. The skill and familiarity of the surgeon with the procedure is also a factor.
-Cementless TKA: Best suited for younger, active patients with excellent bone quality. It relies on biological fixation, offering potential for greater longevity and more straight forward revision surgery. The procedure requires shorter surgical time but demands high surgical precision and may result in first instability. It is costly, and long-term data on outcomes is still limited.
-Cemented TKA: Ideal for older patients or those with poor bone quality, as it provides immediate stability through bone cement. Recovery is quicker, and infection risk is reduced due to antibiotic-laden cement. However, the cement can wear or fracture over time, leading to loosening and potential need for complex revision surgeries.
-
-        </p>
+        <p>The main driver for selecting cement or cementless TKA procedure main differences is the age of the patient, which in turn is related to the patient’s overall health and bone quality. The skill and familiarity of the surgeon with the procedure is also a factor. Cementless TKA: Best suited for younger, active patients with excellent bone quality. It relies on biological fixation, offering potential for greater longevity and more straightforward revision surgery. The procedure requires shorter surgical time but demands high surgical precision and may result in initial instability. It is costly, and long-term data on outcomes is still limited. Cemented TKA: Ideal for older patients or those with poor bone quality, as it provides immediate stability through bone cement. Recovery is quicker, and infection risk is reduced due to antibiotic-laden cement. However, the cement can wear or fracture over time, leading to loosening and potential need for complex revision surgeries.</p>
     </div>
 
-   <!-- Word Count Script -->
-<script>
-    // Script to count words excluding the "excluded" section
-    const contentElement = document.querySelector('.content'); // Main content element
-    const excludedElement = document.querySelector('.excluded'); // Excluded section element
-    const content = contentElement ? contentElement.innerText : ''; // Safely retrieve main content text
-    const excludedContent = excludedElement ? excludedElement.innerText : ''; // Safely retrieve excluded content text
+    <!-- Word Count Script -->
+    <script>
+        const contentElement = document.querySelector('.content');
+        const excludedElement = document.querySelector('.excluded');
+        const content = contentElement ? contentElement.innerText : '';
+        const excludedContent = excludedElement ? excludedElement.innerText : '';
 
-    // Compute word count
-    const wordCount = content
-        .replace(excludedContent, '') // Remove excluded section text from the count
-        .trim() // Remove leading and trailing spaces
-        .split(/\s+/) // Split into words
-        .filter(word => word.length > 0).length; // Filter out empty strings
+        const wordCount = content
+            .replace(excludedContent, '')
+            .trim()
+            .split(/\s+/)
+            .filter(word => word.length > 0).length;
 
-    // Display word count
-    const wordCountElement = document.getElementById('wordCount');
-    if (wordCountElement) {
-        wordCountElement.innerText = `Word Count: ${wordCount}`;
-    }
-</script>
+        const wordCountElement = document.getElementById('wordCount');
+        if (wordCountElement) {
+            wordCountElement.innerText = `Word Count: ${wordCount}`;
+        }
+    </script>
+
+   <!-- Word Count Display -->
+   <div class="word-count" id="wordCount">Word Count: 0</div>
 
 </body>
 </html>
-<h2>References</h2>
-<div class="references">
-    <ol>
-        <li>
-            Lee SH et al. <i><a href="https://doi.org/10.5397/cise.2020.32.60" target="_blank">Knee Surg Relat Res</a></i>. 2020;32:60.
-        </li>
-        <li>
-            Prasad AK et al. <i><a href="https://doi.org/10.1302/2058-5241.5.200018" target="_blank">EFORT Open Rev</a></i>. 2020;5:793-798.
-        </li>
-        <li>
-            Bano N et al. *Composites in Biomedical Applications*. In: Sapuan SM et al., eds. 1st ed: CRC Press; 2020.
-        </li>
-        <li>
-            Meneghini RM. *Cemented vs. Cementless Knee Replacement*.
-            <i><a href="https://www.cortho.org/knee/cemented-and-cementless-knee-replacement/" target="_blank">Cemented and Cementless Knee Replacement</a></i>. Retrieved from <a href="https://www.cortho.org/knee/cemented-and-cementless-knee-replacement/" target="_blank">https://www.cortho.org/knee/cemented-and-cementless-knee-replacement/</a>.
-        </li>
-        <li>
-            A comprehensive comparison between cementless and cemented fixation in the total knee arthroplasty: an updated systematic review and meta-analysis. 
-            <i><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10933953/" target="_blank">Journal of Orthopaedic Surgery and Research</a></i>. Full Text. Retrieved from <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10933953/" target="_blank">https://pmc.ncbi.nlm.nih.gov/articles/PMC10933953/</a>.
-        </li>
-        <li>
-            Syazwan Suhaimy. *Typical cemented and uncemented fixation*.
-            <i><a href="https://www.researchgate.net/profile/Syazwan-Suhaimy/publication/343201857/figure/fig3/AS:960644706746368@1606046954436/Typical-cemented-and-uncemented-fixation-Reproduced-with-permission-from-Izzo-2012.jpg" target="_blank">Reproduced with permission from Izzo 2012</a></i>. Retrieved from <a href="https://www.researchgate.net/profile/Syazwan-Suhaimy/publication/343201857/figure/fig3/AS:960644706746368@1606046954436/Typical-cemented-and-uncemented-fixation-Reproduced-with-permission-from-Izzo-2012.jpg" target="_blank">https://www.researchgate.net/profile/Syazwan-Suhaimy/publication/343201857/figure/fig3/AS:960644706746368@1606046954436/Typical-cemented-and-uncemented-fixation-Reproduced-with-permission-from-Izzo-2012.jpg</a>.
-        </li>
-        <li>
-            *A comprehensive comparison between cementless and cemented fixation in the total knee arthroplasty*. 
-            <i><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7722941/" target="_blank">PMC7722941 Abstract</a></i>. Retrieved from <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7722941/" target="_blank">https://pmc.ncbi.nlm.nih.gov/articles/PMC7722941/</a>.
-        </li>
-        <li>
-            *Total Knee Replacement*.
-            <i><a href="https://roh.nhs.uk/services-information/knees/total-knee-replacement" target="_blank">Royal Orthopaedic Hospital</a></i>. Retrieved from <a href="https://roh.nhs.uk/services-information/knees/total-knee-replacement" target="_blank">https://roh.nhs.uk/services-information/knees/total-knee-replacement</a>.
-        </li>
-        <li>
-            *Arthroplasty Journal*.
-            <i><a href="https://www.arthroplastyjournal.org/article/S0883-5403(24)00198-0/fulltext" target="_blank">Journal of Arthroplasty</a></i>. Retrieved from <a href="https://www.arthroplastyjournal.org/article/S0883-5403(24)00198-0/fulltext" target="_blank">https://www.arthroplastyjournal.org/article/S0883-5403(24)00198-0/fulltext</a>.
-        </li>
-        <li>
-            *PubMed*.
-            <i><a href="https://pubmed.ncbi.nlm.nih.gov/39383175/" target="_blank">Article on PubMed</a></i>. Retrieved from <a href="https://pubmed.ncbi.nlm.nih.gov/39383175/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/39383175/</a>.
-        </li>
-        <li>
-            *PubMed*.
-            <i><a href="https://pubmed.ncbi.nlm.nih.gov/39343975/" target="_blank">Article on PubMed</a></i>. Retrieved from <a href="https://pubmed.ncbi.nlm.nih.gov/39343975/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/39343975/</a>.
-        </li>
-        <li>
-            *PubMed*.
-            <i><a href="https://pubmed.ncbi.nlm.nih.gov/38579049/" target="_blank">Article on PubMed</a></i>. Retrieved from <a href="https://pubmed.ncbi.nlm.nih.gov/38579049/" target="_blank">https://pubmed.ncbi.nlm.nih.gov/38579049/</a>.
-        </li>
-    </ol>
-</div>
-
-
 
 </html>
