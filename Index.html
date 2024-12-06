@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Scientific Comparison of Cemented and Cementless TKR</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 20px;
             background-color: #f9f9f9;
@@ -27,19 +26,15 @@
             border-collapse: collapse;
             margin: 20px 0;
         }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
         th, td {
             padding: 10px;
             text-align: left;
         }
         th {
-            background-color: #0056b3;
-            color: white;
-        }
-        tr:nth-child(even) {
             background-color: #f2f2f2;
-        }
-        tr:hover {
-            background-color: #ddd;
         }
         .banner {
             text-align: center;
@@ -57,50 +52,6 @@
             text-align: right;
             margin-top: 20px;
         }
-        footer {
-            background-color: #0056b3;
-            padding: 10px;
-            color: white;
-            text-align: center;
-            margin-top: 40px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-        /* Smooth scrolling */
-        html {
-            scroll-behavior: smooth;
-        }
-        /* Button Styling */
-        button {
-            padding: 10px 20px;
-            background-color: #0056b3;
-            color: white;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        button:hover {
-            background-color: #003d7a;
-        }
-        @media (max-width: 768px) {
-            body {
-                font-size: 14px;
-            }
-            h1, h2, h3 {
-                font-size: 18px;
-            }
-            nav {
-                display: block;
-                text-align: center;
-            }
-            nav a {
-                display: inline-block;
-                margin: 5px 0;
-            }
-        }
     </style>
 </head>
 <body>
@@ -110,24 +61,24 @@
         <h1><b>ENG0018 Computer Laboratory 2024/25</b></h1>
         <h2>Student URN: 6885727</h2>
         <hr>
-        <h2><b>A Scientific Comparison of Cemented and Cementless TKR</b></h2>
+        <h2 style="font-family:calibri;"><b>A Scientific Comparison of Cemented and Cementless TKR</b></h2>
         <hr>
     </div>
 
-    <!-- Abstract Section -->
-    <div class="excluded" id="excludedSection">
-        <h1>Abstract</h1>
-        <p>Total knee arthroplasty (TKA), also known as total knee replacement (TKR), involves replacing the knee joint with an artificial implant. This procedure can use one of two methods: cementless fixation, which relies on porous implants that promote bone growth for long-term durability and simpler revision surgeries, but requires greater surgical precision and a longer recovery period; or cemented fixation, which provides immediate stability, making it suitable for older patients or those with poor bone quality, though it may lead to complications such as cement wear and complex revision surgeries. The choice between these methods depends primarily on the patient’s age, bone health, and activity level, with cementless fixation favored for younger, active individuals and cemented fixation for older, less active patients.</p>
-    </div>
-
-    <!-- Main Content Section -->
+    <!-- Content Section -->
     <div class="content">
+        <h1>A Scientific Comparison of Cemented and Cementless TKR</h1>
+        <div class="excluded" id="excludedSection">
+            <h1>Abstract</h1>
+            <p>Total knee arthroplasty (TKA), also known as total knee replacement (TKR), involves replacing the knee joint with an artificial implant. This procedure can use one of two methods: cementless fixation, which relies on porous implants that promote bone growth for long-term durability and simpler revision surgeries, 
+                but requires greater surgical precision and a longer recovery period; or cemented fixation, which provides immediate stability, making it suitable for older patients or those with poor bone quality, though it may lead to complications such as cement wear and complex revision surgeries. 
+                The choice between these methods depends primarily on the patient’s age, bone health, and activity level, with cementless fixation favored for younger, active individuals and cemented fixation for older, less active patients.</p>
+        </div>
+
         <h2>Introduction</h2>
-        <p>
-            Total knee arthroplasty (TKA), also known as total knee replacement surgery (TKR), is a surgical procedure performed to alleviate chronic knee pain and restore joint mobility in patients with severe arthritis, osteonecrosis,
-            or other degenerative joint diseases. Surgery replacement will provide significant pain relief as well as return of mobility to the joint and prevent further damage and strain to spread to other joints such as the hips.
-        </p>
-        <p>
+        <p>Total knee arthroplasty (TKA), also known as total knee replacement surgery (TKR), is a surgical procedure performed to alleviate chronic knee pain and restore joint mobility in patients with severe arthritis, osteonecrosis, or other degenerative joint diseases.</p>
+
+      <p>
             The TKA procedure consists of removing damaged cartilage and bone from the knee joint and replacing them with artificial components, usually made from metal alloys and durable plastics to simulate the functions of a healthy knee.
             Although TKA can provide long-term relief, the artificial implants wear over time and need revision, especially in younger and more active patients, who may need revision surgery in the future.
         </p>
@@ -253,27 +204,18 @@
         </p>
     </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
-    </footer>
-
-    <!-- Word Count -->
+    <!-- Word Count Script -->
     <div class="word-count" id="wordCount">Word Count: 0</div>
 
-    <!-- Word Count Script -->
     <script>
-        const content = document.querySelector('.content').innerText;
-        const excludedContent = document.querySelector('.excluded')?.innerText || ''; // Excluded content text
+        // Script to count words excluding the "excluded" section
+        const content = document.querySelector('.content').innerText; // Main content text
+        const excludedContent = document.querySelector('.excluded')?.innerText || ''; // Excluded section text
         const wordCount = content
             .replace(excludedContent, '') // Remove excluded content from the count
             .split(/\s+/) // Split into words
             .filter(word => word.length > 0).length; // Filter out empty strings
         document.getElementById('wordCount').innerText = `Word Count: ${wordCount}`;
     </script>
-
 </body>
-</html>
-
-
 </html>
