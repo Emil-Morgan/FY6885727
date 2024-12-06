@@ -68,6 +68,25 @@
     <!-- Content Section -->
     <div class="content">
         <h1>A Scientific Comparison of Cemented and Cementless TKR</h1>
+<!-- Excluded Section -->
+<div class="excluded" id="excludedSection">
+    <h1>Abstact</h1>
+    <p>Total knee arthroplasty (TKA), also known as total knee replacement (TKR), involves replacing the knee joint with an artificial implant. This procedure can use one of two methods: cementless fixation, which relies on porous implants that promote bone growth for long-term durability and simpler revision surgeries, 
+        but requires greater surgical precision and a longer recovery period; or cemented fixation, which provides immediate stability, making it suitable for older patients or those with poor bone quality, though it may lead to complications such as cement wear and complex revision surgeries. 
+        The choice between these methods depends primarily on the patient’s age, bone health, and activity level, with cementless fixation favoured for younger, active individuals and cemented fixation for older, less active patients.</p>
+</div>
+
+<!-- Word Count Script -->
+<script>
+    // Script to count words excluding the "excluded" section
+    const content = document.querySelector('.content').innerText; // Main content text
+    const excludedContent = document.querySelector('.excluded')?.innerText || ''; // Excluded section text
+    const wordCount = content
+        .replace(excludedContent, '') // Remove excluded content from the count
+        .split(/\s+/) // Split into words
+        .filter(word => word.length > 0).length; // Filter out empty strings
+    document.getElementById('wordCount').innerText = `Word Count: ${wordCount}`;
+</script>
 
         <h2>Introduction</h2>
         <p>
