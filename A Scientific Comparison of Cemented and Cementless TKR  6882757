@@ -214,11 +214,23 @@ Cemented TKA: Ideal for older patients or those with poor bone quality, as it pr
    <!-- Word Count Script -->
 <script>
     // Script to count words excluding the "excluded" section
-    const content = document.querySelector('.content').innerText; // Main content text
-    const excludedContent = document.querySelector('.excluded')?.innerText || ''; // Excluded section text
+    const contentElement = document.querySelector('.content'); // Main content element
+    const excludedElement = document.querySelector('.excluded'); // Excluded section element
+    const content = contentElement ? contentElement.innerText : ''; // Safely retrieve main content text
+    const excludedContent = excludedElement ? excludedElement.innerText : ''; // Safely retrieve excluded content text
+
+    // Compute word count
     const wordCount = content
-        .replace(excludedContent, '') // Remove excluded content from the count
+        .replace(excludedContent, '') // Remove excluded section text from the count
+        .trim() // Remove leading and trailing spaces
+        .split(/\s+/) // Split into words
         .filter(word => word.length > 0).length; // Filter out empty strings
+
+    // Display word count
+    const wordCountElement = document.getElementById('wordCount');
+    if (wordCountElement) {
+        wordCountElement.innerText = `Word Count: ${wordCount}`;
+    }
 </script>
 
 </body>
