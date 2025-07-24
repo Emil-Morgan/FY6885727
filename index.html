@@ -10,7 +10,7 @@
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 20px;
-            background-color: #f9f9f9;
+            background: linear-gradient(to right, #f0f4f8, #d9e2ec);
         }
         h1, h2, h3 {
             color: #0056b3;
@@ -57,25 +57,42 @@
 <body>
     <!-- Banner and Title -->
     <div class="banner">
-        <img src="./A Scientific Comparison of Cemented and Cementless TKR_files/WebBanner2023.png" alt="Banner" width="1200" height="300">
+        <img src="WebBanner2023.png" alt="Banner" width="1200" height="300">
         <h1><b>ENG0018 Computer Laboratory 2024/25</b></h1>
         <h2>Student URN: 6885727</h2>
         <hr>
         <h2 style="font-family:calibri;"><b>A Scientific Comparison of Cemented and Cementless TKR</b></h2>
         <hr>
     </div>
+<div class="content">
+  <h2>Table of Contents</h2>
+  <ul>
+    <li><a href="#abstract">Abstract</a></li>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#main-body">Main Body</a>
+      <ul>
+        <li><a href="#cementless">Cementless Fixation</a></li>
+        <li><a href="#cemented">Cemented Fixation</a></li>
+        <li><a href="#comparison">Comparison Table</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ul>
+    </li>
+    <li><a href="#references">References</a></li>
+  </ul>
+  <hr>
+</div>
 
     <!-- Content Section -->
     <div class="content">
         <h1>A Scientific Comparison of Cemented and Cementless TKR</h1>
-        <div class="excluded" id="excludedSection">
+        <div class="excluded" id="abstract">
             <h1>Abstract</h1>
             <p>Total knee arthroplasty (TKA), also known as total knee replacement (TKR), involves replacing the knee joint with an artificial implant. This procedure can use one of two methods: cementless fixation, which relies on porous implants that promote bone growth for long-term durability and simpler revision surgeries, 
                 but requires greater surgical precision and a longer recovery period; or cemented fixation, which provides immediate stability, making it suitable for older patients or those with poor bone quality, though it may lead to complications such as cement wear and complex revision surgeries. 
                 The choice between these methods depends primarily on the patient’s age, bone health, and activity level, with cementless fixation favored for younger, active individuals and cemented fixation for older, less active patients.</p>
         </div>
 
-        <h2>Introduction</h2>
+        <h2 id="introduction">Introduction</h2>
         <p>Total knee arthroplasty (TKA), also known as total knee replacement surgery (TKR), is a surgical procedure performed to alleviate chronic knee pain and restore joint mobility in patients with severe arthritis, osteonecrosis, or other degenerative joint diseases.</p>
 
       <p>
@@ -88,12 +105,12 @@
             such as shorter surgical times and the possibility of long-lasting biological fixation, making it a promising possibility for certain patient populations.
         </p>
 
-        <h2>Main Body</h2>
+        <h2 id="main-body">Main Body</h2>
         <p>
             During TKA, the metal parts of the prosthesis are fixed with two different methods:
         </p>
 
-        <h3>Cementless Fixation</h3>
+        <h3 id="cementless">Cementless Fixation</h3>
         <p>Cementless fixation is done by press fitting the metal parts that attach to the femur and tibia. The components are made specifically with a porous surface to allow the bone to grow and attach itself to the components, and the bones are shaped in a way to ensure a tight fit around the implants.
     However, bone cement is used to fix the patella in place because the cementless method has been shown to be ineffective for this purpose.
         </p>
@@ -117,7 +134,7 @@
             </li>
         </ul>
 
-        <h3>Cemented Fixation</h3>
+        <h3 id="cemented">Cemented Fixation</h3>
         <p>
             The surgeon must drill a hole in the tibia slightly larger than the implant, to leave space in between the implant and the bone to apply a product called bone cement, a mixture that is long lasting as well as fast hardening. 
             The implants are different from the cementless one because there is no need for the porous surface, as the bone cement fixes the implant properly without it. And as mentioned above, the patella is fixed to the knee with bone cement in both cases.
@@ -143,7 +160,7 @@
             </li>
         </ul>
 
-        <h3>Comparison Table</h3>
+        <h3 id="comparison">Comparison Table</h3>
         <table>
             <thead>
                 <tr>
@@ -196,7 +213,7 @@
             </tbody>
         </table>
 
-        <h3>Conclusion</h3>
+        <h3 id="conclusion">Conclusion</h3>
         <p>
             The main driver for selecting cement or cementless TKA procedure main differences is the age of the patient, which in turn is related to the patient’s overall health and bone quality. The skill and familiarity of the surgeon with the procedure is also a factor.
             Cementless TKA: Best suited for younger, active patients with excellent bone quality. It relies on biological fixation, offering potential for greater longevity and more straightforward revision surgery. The procedure requires shorter surgical time but demands high surgical precision and may result in initial instability. It is costly, and long-term data on outcomes is still limited.
@@ -218,7 +235,7 @@
         document.getElementById('wordCount').innerText = `Word Count: ${wordCount}`;
     </script>
 
-<h2>References</h2>
+<h2 id="references">References</h2>
 <div class="references">
     <ol>
         <li>
