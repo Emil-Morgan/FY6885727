@@ -88,41 +88,47 @@
 
     /* Table of Contents Styles */
     .toc {
-      position: fixed;
-      top: 100px;
-      right: 20px;
-      background-color: #f2f2f2;
-      padding: 10px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      width: 220px;
-      z-index: 10;
-    }
-    .toc h2 {
-      font-size: 16px;
-      color: #0056b3;
-    }
-    .toc ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
-    .toc li {
-      margin: 5px 0;
-    }
-    .toc a {
-      text-decoration: none;
-      color: #007bff;
-    }
-    .toc a:hover {
-      text-decoration: underline;
-    }
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    background-color: rgba(240, 240, 240, 0.7); /* subtle background with transparency */
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: none; /* remove box shadow */
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ddd;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+}
 
-    /* Space for floating TOC */
-    @media (min-width: 1000px) {
-      .content {
-        margin-right: 260px;
-      }
-    }
+.toc h2 {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #666; /* muted title */
+    font-weight: normal;
+}
+
+.toc ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.toc li {
+    margin: 4px 0;
+}
+
+.toc a {
+    text-decoration: none;
+    color: #555;
+    font-weight: normal;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+    color: #007bff;
+}
 
     /* Scroll to Top Button */
     #scrollToTopBtn {
