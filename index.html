@@ -154,6 +154,20 @@ video {
     #scrollToTopBtn:hover {
       background-color: #0056b3;
     }
+.video-container {
+  max-width: 800px;
+  margin: 40px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.video-container p {
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 8px;
+}
+  
   </style>
 </head>
 <body>
@@ -196,10 +210,14 @@ video {
                 The choice between these methods depends primarily on the patient’s age, bone health, and activity level, with cementless fixation favored for younger, active individuals and cemented fixation for older, less active patients.</p>
         </div>
     <div>
-<video width="40%" controls>
- <source src="https://github.com/user-attachments/assets/a3fe0a0c-54c2-4814-830b-d927e9417be8" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="max-width: 800px; margin: 40px auto; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+  <video width="100%" controls>
+    <source src="https://github.com/user-attachments/assets/a3fe0a0c-54c2-4814-830b-d927e9417be8" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p style="text-align: center; font-size: 0.9em; color: #555; margin-top: 8px;">Video: Demonstration of cemented vs. cementless TKR</p>
+</div>
+
 </div>
        <h2 id="introduction">Introduction</h2>
         <p>Total knee arthroplasty (TKA), also known as total knee replacement surgery (TKR), is a surgical procedure performed to alleviate chronic knee pain and restore joint mobility in patients with severe arthritis, osteonecrosis, or other degenerative joint diseases.</p>
